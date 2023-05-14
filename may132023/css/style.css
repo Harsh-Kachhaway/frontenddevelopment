@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigationbar {
+    height: 42px;
+    background: aqua;
+    display: flex;
+    padding: 0px 10px 0px 5px;
+    /* width: 100vw; */
+
+}
+
+nav {
+    display: flex;
+    width: 100vw;
+    height: 42px;
+    flex-direction: row;
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* float:right; */
+    flex-flow: row-reverse;
+
+
+}
+
+.logo {
+    width: 42px;
+    /* justify-content: left; */
+}
+.navigationbar .logotext  {
+    font-size: 30px;
+    width: 200px;
+    color: red;
+    align-self: center;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    /* float: left; */
+    list-style: none;
+    align-self: center;
+    padding-left: 25px;
+    
+}
+.explore{
+    transform: translate(-930px);
+}
+
+nav ul li p {
+font-size: 21px;
+}
+.joinbutton {
+    height: 35px;
+    padding: 0px 10px 0px 10px;
+    display: flex;
+    background: rgb(37, 37, 134);
+    border-radius: 20px;
+    justify-self: right;
+    color: aqua;
+}
+
+.profile {
+    align-self: center;
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 25px;
+}
+
+.jointext {
+    align-self: center;
+
+}
