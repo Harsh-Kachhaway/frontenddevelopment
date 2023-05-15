@@ -12,14 +12,14 @@ color: rgb(45, 7, 96);} */
     display: flex;
     padding: 0px 10px 0px 5px;
     /* width: 100vw; */
-    /* position: fixed; */
+    position: fixed;
    
 
 }
 
 nav {
     display: flex;
-    width: 82vw;
+    width: 79vw;
     height: 42px;
     flex-direction: row;
     /* align-content: center; */
@@ -95,19 +95,35 @@ font-size: 21px;
 /* this is the starting of main */
 
 main{
-    background: red;
+    background: #dbc0c0;
     height: 1000vh;
     display: flex;
     align-items:center;
     justify-content: flex-start;
     flex-direction: column;
+    background-image: url("/images/background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+.firstsection{
+    width: 100vw;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* background-image: url("/images/background.jpg"); */
+    /* background-size: 100%; */
+
+}
+    
+
 .containerforbg{
     height: 70vh;
+    width: 50vw;
     display: flex;
     align-items:center;
     justify-content: center;
-    background: green;
+    /* background: green; */
     flex-direction: column;
 
 }
@@ -117,6 +133,7 @@ form{
     align-items: center;
 }
 .quots{
+    text-align: center;
     font-size: 80px;
     color: rgb(21, 34, 91);
 }
@@ -156,8 +173,47 @@ form{
 .details{
     align-items: flex-start;
     width:60vw;
-    background-color: brown;
-    color: rgb(195, 160, 160);
+    padding: 66px;
+    /* background-color: brown; */
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 20px;
+    /* background: linear-gradient(
+            to right,black,white);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; */
+}
+.points{
+    height: 100px;
+    background: gray;
+    text-align:left;
+    display: flex;
+    align-items: self-start;
+    justify-content:flex-start;
+    width: 1325px;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 9px;
+
+    
+}
+.second{
+    /* background: blue; */
+    flex-direction: row;
+    align-self: first baseline;
+    height: 700px;
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 10px;
+    /* justify-items:stretch; */
+    flex-wrap: wrap;
+
+}
+.numbers{
+    font-size: 35px;
+    background: wheat;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    border-radius: 20px;
 }
