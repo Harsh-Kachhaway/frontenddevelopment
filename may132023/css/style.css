@@ -32,14 +32,14 @@ nav {
     /* justify-content: left; */
 }
 
-.navigationbar .logotext {
+.logotext {
     font-size: 30px;
     width: 200px;
     /* height: 42px; */
     color: red;
     align-self: center;
+   
 }
-
 ul {
     display: flex;
 }
@@ -90,7 +90,7 @@ nav ul li p {
 
 main {
     background: #dbc0c0;
-    height: 1350px;
+    height: 1450px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -192,6 +192,7 @@ form {
     flex-direction: column;
     padding: 10px;
     border-radius: 9px;
+    
 
 }
 
@@ -219,25 +220,26 @@ form {
 
 /* this code is starting of footer section */
 footer{
-    background: red;
+    background: rgb(25, 58, 58);
     height: auto;
     width: 100vw;
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto;
 }
 .containts{
-    background: gray;
-    border: 2px solid red;
+    /* background: gray; */
+    /* border: 2px solid red; */
     display: grid;
     /* flex-wrap:wrap; */
-    width: 50vw;
+    width: 60vw;
     grid-template-columns: auto auto auto;
     /* row-gap: 100px; */
-    column-gap: 50px;
+    /* column-gap: 50px; */
     padding: 30px 0px 10px 10px ;
     
 }
 .footerdetails{
-background: red;
+/* background: red; */
     display: grid;
     grid-template-columns: auto;
     row-gap: 15px;
@@ -249,13 +251,39 @@ background: red;
 
 }
 .footerdetails p{
-    color: #9a6c6c;
+    color: #441515;
 }
 .footerdetails b{
-    color: #312e2e;
+    color: #110202;
+    padding-bottom: 10px;
 }
 .smallogo{
     height: 15px;
     width: 15px;
     padding-left: 10px;
+}
+.aboutbox{
+    display: grid;
+    text-align: end;
+    padding: 20px;
+    row-gap: 10px;
+    font-size: 18px;
+}
+.aboutbox p{
+    font-size: 14px;
+    padding: 0;
+    /* align-content: right; */
+    /* justify-items: end; */
+}
+.num{
+    /* padding: 20px 20px 20px 0px; */
+}
+.select{
+    border: none;
+    background-color: antiquewhite;
+    width: 8vw;
+    /* align-self:self-end; */
+    justify-self: end;
+    border-radius: 3px;
+    text-align: center;
 }
