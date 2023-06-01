@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cascad.css">
+</head>
+<body>
+    <img onmouseover="popin()" onmouseout="popout()" src="/image/insta.png" alt="" class ="img">
+    
+    <script>
+        let img=document.getElementsByClassName("img");
+
+        function popin(){
+            img.classList.add("img-two");
+
+        }
+        function popout(){
+            img.classList.remove("img-two");
+
+        }
+
+
+
+    </script>
+</body>
+</html>

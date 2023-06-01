@@ -21,10 +21,10 @@
             <li>Menu</li>
             <li>INR</li>
         </ul>
-        <div class="logoofsocial">
-            <a href="https://www.instagram.com/harsh_kachhaway/"><img src="/image/instainwhite.png"></a>
-            <a href="https://twitter.com/HarshKachhaway"> <img src="/image/tweterinwhite.png"></a>
-            <a href="https://www.youtube.com/channel/UC1gzXWK_HPvYnEx9N0nyDnA"> <img
+        <div class="logoofsocial" >
+            <a href="https://www.instagram.com/harsh_kachhaway/"><img id="imgone" class="img-one" onmouseover="popinone()" onmouseout="popoutone()" src="/image/instainwhite.png"></a>
+            <a href="https://twitter.com/HarshKachhaway"> <img  id="imgtwo" class="img-two" onmouseover="popintwo()" onmouseout="popouttwo()"  src="/image/tweterinwhite.png"></a>
+            <a href="https://www.youtube.com/channel/UC1gzXWK_HPvYnEx9N0nyDnA"> <img  id="imgthree" class="img-three" onmouseover="popinthree()" onmouseout="popoutthree()" 
                     src="/image/youtubeinwhite.png"></a>
         </div>
         </header>
@@ -32,7 +32,7 @@
 
         <div class="sectionone">
             <div class="texts">
-                <h1>"In a world full of noise, find your escape with the perfect pair of headphones."</h1>
+                <h1 class="h1" id="h1" onmouseover="color()" onmouseout="colorout()">"In a world full of noise, find your escape with the perfect pair of headphones."</h1>
                 <h3>Discover the sence of music never before</h3>
                 <div class="button">EXPLORE NOW<img src="/image/sidearrow.png" alt=""></div>
             </div>
@@ -145,7 +145,58 @@
             <div class="copyright"><b>&#169 2003-2023,Kachhaway.com,inc.</b></div>
         </footer>
     </div>
+    
+
+
+    <script>
+        let popicon=document.getElementById("imgone");
+
+        function popinone(){
+            popicon.classList.add("popicon")
+            
+        }
+
+        function popoutone(){
+            popicon.classList.remove("popicon")
+            
+        }
+        let popicontwo=document.getElementById("imgtwo");
+
+        function popintwo(){
+            popicontwo.classList.add("popicon")
+            
+        }
+
+        function popouttwo(){
+            popicontwo.classList.remove("popicon")
+            
+        }
+        let popiconthree=document.getElementById("imgthree");
+
+        function popinthree(){
+            popiconthree.classList.add("popicon")
+            
+        }
+
+        function popoutthree(){
+            popiconthree.classList.remove("popicon")
+            
+        }
+        let text=document.getElementById("h1");
+        function color(){
+            text.classList.add("colortext")
+        }
+        function colorout(){
+            text.classList.remove("colortext")
+        }
+
+
+    </script>
+
+
+    
 </body>
+
 
 
 </html>
