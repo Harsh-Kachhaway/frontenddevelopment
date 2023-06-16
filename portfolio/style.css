@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div{
+    background-image: url(blur.png);
+    background-size: cover;
+    height: 4096px;
+    background-repeat: no-repeat;
+    width: 1536px;
+}
