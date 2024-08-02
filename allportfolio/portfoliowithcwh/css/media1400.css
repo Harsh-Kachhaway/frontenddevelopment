@@ -1,0 +1,120 @@
+@media screen and (max-width: 1400px) {
+    body{
+        /* background: red; */
+    }
+  
+
+ nav{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(25, 25, 52);
+    height: 80px;
+    position: fixed;
+    width: 100vw;
+    top:0;
+    z-index: 1;}
+ .left{
+        font-family: 'Geologica', sans-serif;
+        font-size: 1.5rem;
+        margin: 10px;
+       }
+
+.right{
+    font-family: 'Faustina', serif;
+    margin-bottom: 10px;
+}
+.firstsection{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    /* background-color: black; */
+ }
+ .rightsection{
+    width: 50%;
+ }
+ .leftsection{
+    /* background: red; */
+    font-size: 2.7rem;
+     width: 70%;
+     font-family: 'Fjalla One', sans-serif; 
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+
+ }
+ .horozontal{
+    background: rgb(55, 9, 240);
+    height: 1000px;
+    width: 2px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+.verticle{
+    background: rgb(55, 9, 240);
+    height: 2px;
+    width: 70px;
+    margin: 100px 0;
+ }
+.title{
+    position: relative;
+    top:-30px;
+    left:85px;
+    font-size: 1.7rem;
+}
+.dec{
+    position: relative;
+    top:-120px;
+    left:230px;
+    width: 50vw;
+    font-size: 1rem;
+
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    
+}
+.footer-first h1{
+    width: 100%;
+    font-size: 1.6rem;
+    margin: 0 10px;
+}
+.footernonlogo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-second ul li{
+
+    font-size: 0.7rem;
+    margin: 4px;
+}
+.box{
+    height: auto;
+}
+
+
+
+
+
+
+}
+
+
+

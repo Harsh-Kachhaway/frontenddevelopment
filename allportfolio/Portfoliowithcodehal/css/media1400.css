@@ -1,0 +1,20 @@
+@media screen and (max-width: 1400px) {
+    .portfolio{
+        height: auto;
+    }
+    .rightsection{
+        width:45% ;
+    }
+    .leftsection{
+            
+        width: 55%;
+    }
+    .leftabout{
+        width: 45%;
+
+    }
+    .rightabout{
+        width: 55%;
+
+    }
+}

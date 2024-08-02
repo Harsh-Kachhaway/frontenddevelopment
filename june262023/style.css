@@ -1,0 +1,18 @@
+body{
+    width: 94.5rem;
+height: 61.375rem;
+background: radial-gradient(50% 50.00% at 50% 50.00%, #ABA5A5 0%, rgb(13, 0, 0) 100%);
+}
+nav{
+    width: 94.5rem;
+height: 9rem;
+flex-shrink: 0;
+background: linear-gradient(97deg, #0E1446 34.90%, rgba(66, 15, 15, 0.00) 100%);
+}
+.firs{
+    width: 13.125rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    background: #140A89;
+    flex-shrink: 0;                             
+}

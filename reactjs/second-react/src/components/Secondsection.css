@@ -1,0 +1,62 @@
+
+main hr{
+    width: 90%;
+    margin: 2.5rem auto;
+    background: rgb(11, 33, 105);
+    border:none;
+    height: 0.125rem;
+}
+.secondsection{
+    margin:auto;
+    max-width: 80vw;
+}
+.secondsection h1{
+    margin: 1.875rem 0;
+}
+.box{
+    max-width: 80vw;
+    height: 80vh;
+}
+.horozontal{
+    background: white;
+    width: 90%;
+    height: 0.125rem;
+    display: flex;
+    margin: auto;
+}
+.verticle{
+    background: white;
+    width: 0.063rem;
+    height: 4.375rem;
+    margin: 0 6.25rem;
+
+
+}
+.start{
+    background: rgb(243, 170, 247);
+    width: 0.438rem;
+    height: 0.438rem;
+    border-radius: 0.25rem;
+    transform: translateX(-0.25rem);
+    transform: translateY(-0.125rem);
+}
+.title{
+    position: relative;
+    top: 4.375rem;
+    left: -2.5rem;
+    font-family: 'Geologica', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(173, 118, 236);
+
+    
+}
+.dec{
+    position: relative;
+    top: 5rem;
+    left: -2.5rem;
+    width: 11.875rem;
+    font-family: 'Geologica', sans-serif;
+    font-size: 0.7rem;
+    color: rgb(90, 33, 144);
+}

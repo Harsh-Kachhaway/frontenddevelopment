@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    /* position: absolute; */
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(23, 12, 57);
+}
+.logo{
+    color: rgb(27, 27, 206);
+    font-size: 42px;
+}
+
+.right{
+    display: flex;
+}
+.nav-btn{
+    font-weight: bold;
+    padding-left: 30px;
+}

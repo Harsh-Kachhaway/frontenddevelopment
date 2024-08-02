@@ -1,0 +1,13 @@
+@media screen and (max-width: 530px) {
+    .right{
+      display: none;
+      visibility: hidden;
+    }
+    nav{
+      height: 50px;
+    }
+    .leftsection div{
+      margin: 0;
+    }
+  
+  }

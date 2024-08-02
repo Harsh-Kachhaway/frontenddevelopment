@@ -1,0 +1,13 @@
+@media screen and (max-width: 1140px) {
+    .right{
+      visibility: hidden;
+    }
+    .menu{
+      font-size: 40px;
+      visibility: visible;
+      padding-right: 100px;
+  
+  
+    }
+  }
+  

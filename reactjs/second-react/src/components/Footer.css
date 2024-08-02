@@ -1,0 +1,45 @@
+footer{
+    background: #210439;
+
+}
+.footer{
+    width: 80vw;
+    margin:auto;
+    height: 15.625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.footer-first h1{
+    width: 21.875rem;
+    margin:0 6.25rem ;
+    font-size: 3.125rem;
+    font-family: 'Geologica', sans-serif;
+    color: purple;
+
+}
+.footer-first h1:hover{
+    color: rgb(255, 64, 255);
+}
+.footer-second ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-second ul li{
+    list-style: none;
+    margin: 0.938rem;
+    font-family: 'Geologica', sans-serif;
+    font-size: 1.2rem;
+
+}
+.footer-second ul li a:hover{
+    color: #bb9ce9;
+}
+.footernonlogo{
+    display: flex;
+    width: 80vw;
+justify-content: space-around;
+}
+
+
